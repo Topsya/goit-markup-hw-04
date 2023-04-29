@@ -221,6 +221,7 @@ body{color:#434455;
     align-items: center;
     border-radius: 4px;
 }
+
 /* ======Section2==== */
 .work{
     display: flex;
@@ -250,7 +251,7 @@ border-radius: 0px 0px 4px 4px;
 text-align: center;
 }
 .job-title{margin-bottom: 8px;}
-.social-lisy{display: flex;
+.social-list{display: flex;
     justify-content: center;
     gap: 24px;
 }
@@ -262,14 +263,12 @@ height: 40px;
 background-color: #4D5AE5;
 border-radius: 50%;
 }
-.social-list-link:hover,
-.social-list-link:focus{background-color:var(--color-green);}
+
 .social-list-icon{fill:#FFFFFF;
     width: 16px;
     height: 16px;
     }
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon{fill: var(--color-cornflower);}
+
 
 
 
@@ -409,5 +408,22 @@ margin-right: 120px;}
    .social-list-footer{display: flex;
     justify-content: center;
     gap: 16px;}
-   
+
+.foter-social-list-icon{fill:#FFFFFF;
+ width:24px;
+ height:24px;}
+.foter-social-list-link{display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    }
+.foter-social-list-link:hover,
+.foter-social-list-link:focus{background-color:var(--color-green);}
+
+.foter-social-list-link:hover .social-list-icon,
+.foter-social-list-link:focus .social-list-icon{fill: var(--color-cornflower);}
+
      
