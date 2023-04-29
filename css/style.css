@@ -262,11 +262,11 @@ justify-content: center;
 align-items: center;
 width: 40px;
 height: 40px;
-background-color: #4D5AE5;
+background-color:#404bbf;
 border-radius: 50%;
 }
 
-.social-list-icon{fill: #f4f4fd ;
+.social-list-icon{fill:var(--color-ocean);
     width: 16px;
     height: 16px;
     }
@@ -309,19 +309,19 @@ border-radius: 50%;
 
 }
 .custumer-list-icon{ justify-content: center;
-    fill: currentColor; 
+    fill: currentColor;
     width: 104px;
     height: 56px;
     text-align: center;
 }
 
 .custumer-list-link:hover,
-.custumer-list-link:focus{fill:  #404BBF;
+.custumer-list-link:focus{color: #404bbf;
     border-color: #404BBF;}
 
 .custumer-list-link:hover .custumer-list-icon ,
-.custumer-list-link:focus .custumer-list-icon{color:#404BBF;
-    border-color: #404BBF;}
+.custumer-list-link:focus .custumer-list-icon{color:#404bbf;
+    border-color:#404bbf;}
 /* ========PORTFOLIO======= */
 
 .menu-filter{
