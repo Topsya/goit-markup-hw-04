@@ -151,9 +151,10 @@ body{color:#434455;
    
     background-image:linear-gradient( rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7) ),
     url(../images/hero/people-office.jpg);
-  
+    background-position: center;
+    background-size: cover; 
     background-repeat: no-repeat;
-    max-width: 1400px;
+    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;}
 .hero-title{max-width: 496px;
@@ -220,6 +221,7 @@ body{color:#434455;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
+    margin-bottom: 8px; 
 }
 
 /* ======Section2==== */
@@ -247,7 +249,7 @@ border-radius: 0px 0px 4px 4px;
     display: flex;
 }
 .employees .card:not(:last-child){margin-right: 24px;}
-.card-signature{padding: 32px 16px;
+.card-signature{padding: 32px 0;
 text-align: center;
 }
 .job-title{margin-bottom: 8px;}
@@ -264,15 +266,32 @@ background-color: #4D5AE5;
 border-radius: 50%;
 }
 
-.social-list-icon{fill:#FFFFFF;
+.social-list-icon{fill: #f4f4fd ;
     width: 16px;
     height: 16px;
     }
+.social-list-link:hover,
+.social-list-link:focus{background-color:var(--color-green);}
+    
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon{fill: var(--color-cornflower);}
 
 
 
 
 /* =============SECTTION 4 ===========*/
+
+
+.title-customers{font-family:var(--primery-text);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+    color: #2E2F42;}
 .custumer-list{display: flex;
     justify-content: center;
     gap: 24px;}
@@ -290,7 +309,7 @@ border-radius: 50%;
 
 }
 .custumer-list-icon{ justify-content: center;
-    fill: currentColor;
+    fill: currentColor; 
     width: 104px;
     height: 56px;
     text-align: center;
@@ -301,7 +320,7 @@ border-radius: 50%;
     border-color: #404BBF;}
 
 .custumer-list-link:hover .custumer-list-icon ,
-.custumer-list-link:focus .custumer-list-icon{fill:#404BBF;
+.custumer-list-link:focus .custumer-list-icon{color:#404BBF;
     border-color: #404BBF;}
 /* ========PORTFOLIO======= */
 
@@ -365,7 +384,8 @@ border-radius: 50%;
     padding: 100px 0;
     
 }
-.footer-all{display: flex;}
+.footer-all{display: flex;
+    align-items: baseline;}
 .foter-container-logo{display: inline-block;
 width: 264px;
 margin-right: 120px;}
@@ -388,7 +408,7 @@ margin-right: 120px;}
     color: #4D5AE5;display: inline-block;
     margin-bottom: 16px;}
 .title-media{
-        font-family: var(--primery-text);
+    font-family: var(--primery-text);
 	font-size: 16px;
 	font-weight: 500;
 	font-style: normal;
@@ -409,7 +429,7 @@ margin-right: 120px;}
     justify-content: center;
     gap: 16px;}
 
-.foter-social-list-icon{fill:#FFFFFF;
+.foter-social-list-icon{fill: var(--color-studio-footer);
  width:24px;
  height:24px;}
 .foter-social-list-link{display: flex;
@@ -417,7 +437,7 @@ margin-right: 120px;}
     align-items: center;
     width: 40px;
     height: 40px;
-    background-color: #4D5AE5;
+    background-color: var(--color-iris);
     border-radius: 50%;
     }
 .foter-social-list-link:hover,
