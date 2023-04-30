@@ -269,10 +269,8 @@ border-radius: 50%;
 
 .social-list-icon{ 
     fill:var(--color-studio-footer);
-    fill: #f4f4fd
-    width: 16px;
-    height: 16px;
-    }
+ 
+}
 .social-list-link:hover,
 .social-list-link:focus{background-color:#404bbf;}
     
