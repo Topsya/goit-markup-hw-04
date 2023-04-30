@@ -267,7 +267,7 @@ border-radius: 50%;
 
 }
 
-.social-list-icon{ fill:var(--color-studio-footer);}
+.social-list-icon{fill:var(--color-studio-footer);}
 .social-list-link:hover,
 .social-list-link:focus{background-color:#404bbf;}
     
