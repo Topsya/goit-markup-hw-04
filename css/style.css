@@ -267,12 +267,13 @@ border-radius: 50%;
 
 }
 
-.social-list-icon{fill:var(--color-studio-footer);}
+.social-list-icon{fill: #f4f4fd;
+    fill:var(--color-studio-footer);}
 .social-list-link:hover,
 .social-list-link:focus{background-color:#404bbf;}
     
 .social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon{fill: #404bbf;}
+.social-list-link:focus .social-list-icon{fill:var(--color-studio-footer);}
 
 
 
